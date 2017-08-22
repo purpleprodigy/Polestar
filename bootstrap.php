@@ -48,4 +48,4 @@ if ( is_ssl() ) {
 define( 'POLESTAR_URL', $plugin_url );
 define( 'POLESTAR_TEXT_DOMAIN', 'polestar' );
 
-include( __DIR__ . '/src/plugin.php');
+include( __DIR__ . '/plugin.php');
