@@ -7,10 +7,10 @@
  * the arguments then registering the post type with WordPress.
  *
  * @package     PurpleProdigy\Polestar\Custom;
- * @since       1.0.0
+ * @since       1.0.1
  * @author      Purple Prodigy
  * @link        https://purpleprodigy.com
- * @licence     GNU General Public License 2.0+
+ * @licence     GPL-2.0+
  */
 
 namespace PurpleProdigy\Polestar\Custom;
@@ -19,7 +19,7 @@ add_action( 'init', __NAMESPACE__ . '\register_the_custom_post_types' );
 /**
  * Register the custom post types.
  *
- * @since 1.0.0
+ * @since 1.0.1
  *
  * @return void
  */
@@ -29,7 +29,7 @@ function register_the_custom_post_types() {
 	 * Add custom post type runtime configurations for
 	 * generating and registering each with WordPress.
 	 *
-	 * @since 1.0.0
+	 * @since 1.0.1
 	 *
 	 * @param array Array of configurations.
 	 *
@@ -45,7 +45,7 @@ function register_the_custom_post_types() {
 /**
  * Register a single custom post type.
  *
- * @since 1.0.0
+ * @since 1.0.1
  *
  * @param string $post_type Post type name to be registered with WordPress
  * @param array $config An array of post type runtime configuration parameters.
@@ -69,7 +69,7 @@ function register_the_custom_post_type( $post_type, array $config ) {
 /**
  * Get all the post type features for the given post type.
  *
- * @since 1.0.0
+ * @since 1.0.1
  *
  * @param array $config Runtime configuration parameters
  *
@@ -88,7 +88,7 @@ function generate_supported_post_type_features( array $config ) {
 /**
  * Excluding features from the given supported features.
  *
- * @since 1.0.0
+ * @since 1.0.1
  *
  * @param array $supported_features Array of supported post type features
  * @param array|string $exclude_features (optional) Array of features to exclude
@@ -116,7 +116,7 @@ function exclude_post_type_features( array $supported_features, $exclude_feature
 /**
  * Merge post type's supported features.
  *
- * @since 1.0.0
+ * @since 1.0.1
  *
  * @param array $supported_features Array of supported post type features.
  * @param array $additional_features The additional features to merge with our supported features.

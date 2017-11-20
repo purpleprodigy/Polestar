@@ -1,23 +1,22 @@
 <?php
 /**
- * Purple Prodigy Polestar plugin
+ * The bootstrap to launch the Polestar plugin.
  *
- * @package     PurpleProdigy\Polestar;
- * @author      Purple Prodigy
- * @licence     GPL-2.0+
- * @link        https://purpleprodigy.com
- */
-/*
+ * @package         PurpleProdigy\Polestar
+ * @author          Purple Prodigy
+ * @license         GPL-2.0+
+ * @link            https://purpleprodigy.com
+ *
  * @wordpress-plugin
  * Plugin Name:     Polestar
  * Plugin URI:      https://github.com/purpleprodigy/Polestar
  * Description:     Polestar is a centralized WordPress Plugin for Purple Prodigy website projects.  It provides the framework for custom post types, taxonomies and shortcodes.
- * Version:         1.0.0
+ * Version:         1.0.2
  * Author:          Purple Prodigy
  * Author URI:      https://purpleprodigy.com
  * Text Domain:     polestar
  * Requires WP:     4.7
- * Requires PHP:    5.5
+ * Requires PHP:    5.6
  */
 /*
 	This program is free software; you can redistribute it and/or
@@ -35,7 +34,7 @@
 
 namespace PurpleProdigy\Polestar;
 
-if ( !defined( 'ABSPATH' ) ) {
+if ( ! defined( 'ABSPATH' ) ) {
 	die( "Nothing to see here." );
 }
 
@@ -48,4 +47,4 @@ if ( is_ssl() ) {
 define( 'POLESTAR_URL', $plugin_url );
 define( 'POLESTAR_TEXT_DOMAIN', 'polestar' );
 
-include( __DIR__ . '/plugin.php');
+require __DIR__ . '/src/plugin.php';

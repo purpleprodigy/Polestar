@@ -9,6 +9,7 @@ This plugin includes the following features:
 - Label Generator for Taxonomies and Custom Post Types
 - Custom Post Type Handler
 - Taxonomy Handler
+- Automated asset versioning for WordPress
 - Gulp as its task runner
 
 ## Installation

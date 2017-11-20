@@ -3,10 +3,10 @@
  * Custom Module Handler - bootstrap file for the module.
  *
  * @package     PurpleProdigy\Polestar\Custom
- * @since       1.0.0
+ * @since       1.0.1
  * @author      Purple Prodigy
  * @link        https://purpleprodigy.com
- * @licence     GNU General Public License 2.0+
+ * @licence     GPL-2.0+
  */
 
 namespace PurpleProdigy\Polestar\Custom;
@@ -16,7 +16,7 @@ define( 'CUSTOM_MODULE_DIR', __DIR__ );
 /**
  * Autoload plugin files.
  *
- * @since 1.0.0
+ * @since 1.0.1
  *
  * @return void
  */
@@ -28,15 +28,16 @@ function autoload() {
 	);
 
 	foreach ( $files as $file ) {
-		include( __DIR__ . '/' . $file );
+		include __DIR__ . '/' . $file;
 	}
 }
 
 autoload();
+
 /**
  * Register a plugin with the Custom Module.
  *
- * @since 1.0.0
+ * @since 1.0.1
  *
  * @param string $plugin_file
  *
@@ -51,7 +52,7 @@ function register_plugin( $plugin_file ) {
 /**
  * Delete the rewrite rules on plugin status change.
  *
- * @since 1.0.0
+ * @since 1.0.1
  *
  * @return void
  */
