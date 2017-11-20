@@ -10,7 +10,8 @@ This plugin includes the following features:
 - Custom Post Type Handler
 - Taxonomy Handler
 - Automated asset versioning for WordPress
-- Gulp as its task runner
+- ConfigStore
+- Meta
 
 ## Installation
 
