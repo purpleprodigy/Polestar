@@ -24,6 +24,7 @@ function autoload() {
 	$files = array(
 		'label-generator.php',
 		'post-type.php',
+		'shortcode.php',
 		'taxonomy.php',
 	);
 

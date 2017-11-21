@@ -1,6 +1,6 @@
 # Polestar plugin
 
-Polestar is a centralized WordPress Plugin for Purple Prodigy website projects.  It provides the framework for custom post types, taxonomies and shortcodes and custom metaboxes. It keeps plugins DRY, reusable and modular. For example, if a feature-specific plugin such as a Testimonial, FAQ, or Portfolio plugin is required, you configure these plugins accordingly.
+Polestar is a centralized WordPress Plugin for Purple Prodigy website projects.  It provides the framework for custom post types, taxonomies, shortcodes and custom metaboxes. It keeps plugins DRY, reusable and modular. For example, if a feature-specific plugin such as a Testimonial, FAQ, or Portfolio plugin is required, you configure these plugins accordingly.
 
 ## Features
 

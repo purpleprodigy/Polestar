@@ -80,7 +80,7 @@ function generate_supported_post_type_features( array $config ) {
 
 	$supported_features = exclude_post_type_features( $base_post_type_features, $config['exclude'] );
 
-//	$supported_features = merge_post_type_features( $supported_features, $config['additional'] );
+	$supported_features = merge_post_type_features( $supported_features, $config['additional'] );
 
 	return $supported_features;
 }
