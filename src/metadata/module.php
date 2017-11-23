@@ -9,9 +9,9 @@
  * @licence     GNU-2.0+
  */
 
-namespace PurpleProdigy\Metadata;
+namespace PurpleProdigy\PoleStar\MetaData;
 
-use PurpleProdigy\ConfigStore;
+use PurpleProdigy\PoleStar\ConfigStore;
 
 /**
  * Autoload the module's configuration models.

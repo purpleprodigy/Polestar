@@ -9,7 +9,7 @@
  * @licence     GPL-2.0+
  */
 
-namespace PurpleProdigy\ConfigStore;
+namespace PurpleProdigy\PoleStar\ConfigStore;
 
 /**
  * Get the store key.

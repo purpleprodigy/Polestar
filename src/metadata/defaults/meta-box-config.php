@@ -11,7 +11,7 @@
  * @licence     GNU General Public License 2.0+
  */
 
-namespace PurpleProdigy\Metadata;
+namespace PurpleProdigy\PoleStar\Metadata;
 
 return array(
 	/************************************************************

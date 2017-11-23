@@ -9,9 +9,9 @@
  * @licence     GPL-2.0+
  */
 
-namespace PurpleProdigy\Metadata;
+namespace PurpleProdigy\PoleStar\MetaData;
 
-use PurpleProdigy\ConfigStore;
+use PurpleProdigy\PoleStar\ConfigStore;
 
 /**
  * Get all the meta box keys from the ConfigStore.

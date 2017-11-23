@@ -9,7 +9,7 @@
  * @licence     GNU General Public License 2.0+
  */
 
-namespace PurpleProdigy\ConfigStore;
+namespace PurpleProdigy\PoleStar\ConfigStore;
 
 /**
  * Get a specific configuration from the store.

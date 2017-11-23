@@ -9,7 +9,7 @@
  * @license     GNU-2.0+
  */
 
-namespace PurpleProdigy\MetaData;
+namespace PurpleProdigy\PoleStar\MetaData;
 
 use WP_Post;
 use PurpleProdigy\ConfigStore;
