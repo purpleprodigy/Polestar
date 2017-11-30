@@ -21,6 +21,7 @@ add_action( 'plugins_loaded', __NAMESPACE__ . '\autoload' );
  */
 function autoload() {
 	$files = array(
+		'utility/string-functions.php',
 		'asset-versioning/asset-versioning.php',
 		'config-store/module.php',
 		'custom/module.php',

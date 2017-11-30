@@ -12,7 +12,7 @@
 namespace PurpleProdigy\PoleStar\MetaData;
 
 use WP_Post;
-use PurpleProdigy\ConfigStore;
+use PurpleProdigy\PoleStar\ConfigStore;
 
 add_action( 'admin_menu', __NAMESPACE__ . '\register_meta_boxes' );
 /**
