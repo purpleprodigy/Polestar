@@ -8,7 +8,7 @@
  * @since       1.0.0
  * @author      Purple Prodigy
  * @link        https://purpleprodigy.com
- * @licence     GNU General Public License 2.0+
+ * @licence     GPL-2.0+
  */
 
 namespace PurpleProdigy\PoleStar\Metadata;

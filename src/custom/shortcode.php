@@ -5,8 +5,8 @@
  * @package     PurpleProdigy\Polestar\Custom
  * @since       1.0.0
  * @author      Purple Prodigy
- * @link        https://www.purpleprodigy.com
- * @licence     GNU General Public License 2.0+
+ * @link        https://purpleprodigy.com
+ * @licence     GPL-2.0+
  */
 
 namespace PurpleProdigy\Polestar\Custom;

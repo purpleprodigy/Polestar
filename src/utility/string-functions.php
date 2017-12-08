@@ -1,4 +1,15 @@
 <?php
+/**
+ * String function utility
+ *
+ * @package     PurpleProdigy\Polestar
+ * @since       1.0.1
+ * @author      Purple Prodigy
+ * @link        https://purpleprodigy.com
+ * @licence     GPL-2.0+
+ */
+
+namespace PurpleProdigy\Polestar;
 
 if ( ! function_exists( 'get_substring' ) ) :
 	/**

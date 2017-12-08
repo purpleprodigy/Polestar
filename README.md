@@ -6,12 +6,13 @@ Polestar is a centralized WordPress Plugin for Purple Prodigy website projects. 
 
 This plugin includes the following features:
 
-- Label Generator for Taxonomies and Custom Post Types
-- Custom Post Type Handler
-- Taxonomy Handler
-- Automated asset versioning for WordPress
+- Custom post type handler
+- Taxonomy handler
+- Label generator for taxonomies and custom post types
 - MetaData module for custom meta boxes
 - ConfigStore module
+- Automated asset versioning for WordPress
+- String function utility
 
 ## Installation
 
