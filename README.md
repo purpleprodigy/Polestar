@@ -20,7 +20,8 @@ To install this plugin, you can download it by clicking on the GitHub download b
 
 1. Navigate to the `wp-content/mu-plugins` folder of your project or create the `mu-plugins` folder if it does not already exist.
 2. Then type in terminal: `git clone https://github.com/purpleprodigy/Polestar.git`.
-3. Log in to your WordPress website.
+3. Add the code `include( 'polestar/bootstrap.php' );` to the bottom of `mu-loader.php` in your `wp-content/mu-plugins` folder. If you don't have this file already, add it.
+4. Log in to your WordPress website.
 
 ## Continue Development
 
