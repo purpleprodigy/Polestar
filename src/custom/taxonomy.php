@@ -14,7 +14,7 @@
 
 namespace PurpleProdigy\Polestar\Custom;
 
-add_action( 'init', __NAMESPACE__ . '\register_the_custom_taxonomies' );
+add_action( 'init', __NAMESPACE__ . '\register_the_custom_taxonomies', 9 );
 /**
  * Register the custom taxonomies.
  *
