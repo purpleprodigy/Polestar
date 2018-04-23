@@ -1,6 +1,6 @@
 # Polestar plugin
 
-Polestar is a centralized WordPress Plugin for Purple Prodigy website projects.  It provides the framework for custom post types, taxonomies, shortcodes and custom metaboxes. It keeps plugins DRY, reusable and modular. For example, if a feature-specific plugin such as a Testimonial, FAQ, or Portfolio plugin is required, you configure these plugins accordingly.
+Polestar is a centralized WordPress Plugin for Purple Prodigy website projects using the [Beans](https://getbeans.io) Framework.  It provides the framework for custom post types, taxonomies, shortcodes and custom metaboxes. It keeps plugins DRY, reusable and modular. For example, if a feature-specific plugin such as a Testimonial, FAQ, or Portfolio plugin is required, you configure these plugins accordingly.
 
 ## Features
 
@@ -20,8 +20,9 @@ To install this plugin, you can download it by clicking on the GitHub download b
 
 1. Navigate to the `wp-content/mu-plugins` folder of your project or create the `mu-plugins` folder if it does not already exist.
 2. Then type in terminal: `git clone https://github.com/purpleprodigy/Polestar.git`.
-3. Add the code `include( 'polestar/bootstrap.php' );` to the bottom of `mu-loader.php` in your `wp-content/mu-plugins` folder. If you don't have this file already, add it.
-4. Log in to your WordPress website.
+3. Rename the folder `Polstar` to lowercase `polestar`.
+4. Add the code `include 'polestar/bootstrap.php';` to the bottom of `mu-loader.php` in your `wp-content/mu-plugins` folder. If you don't have this file already, add it.
+5. Log in to your WordPress website.
 
 ## Continue Development
 
